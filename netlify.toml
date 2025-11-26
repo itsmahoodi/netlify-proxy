@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "dist" # یا build یا هرچی که خروجی‌ات هست
+
+[[edge_functions]]
+  path = "/*"
+  function = "proxy"
